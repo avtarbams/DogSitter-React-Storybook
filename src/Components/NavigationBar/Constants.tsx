@@ -5,7 +5,9 @@ export enum NAVTYPES {
     Item4 = 4,
     Item5 = 5,
     Item6 = 6,
-    Item7 = 7
+    Item7 = 7,
+    Login = 8,
+    SignUp = 9
 }
 
 export enum VIEWTYPES {
@@ -50,13 +52,13 @@ export const NAVBARDATA = [
 
 export const USEROPTIONS = [
     {
-        "title": "Item1",
-        "uri": "/Item1",
-        "navId": NAVTYPES.Item1
+        "title": "Login",
+        "uri": "/Login",
+        "navId": NAVTYPES.Login
     },
     {
-        "title": "Item2",
-        "uri": "/Item2",
-        "navId": NAVTYPES.Item2
+        "title": "Sign Up",
+        "uri": "/signup",
+        "navId": NAVTYPES.SignUp
     }
 ];
