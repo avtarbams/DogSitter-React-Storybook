@@ -1,0 +1,283 @@
+.newsevents_container{
+    width:980px;
+    margin: 0 auto;
+}
+
+.newsevents_container_mobile{
+    padding-left:5%;
+    padding-right:5%;
+    margin: 0;
+}
+
+.newsList_Cards{
+    padding-top: 15px;
+    padding-bottom : 15px;
+}
+
+.heading_text{
+    color: #000000;
+    font-family: "Patua One";
+    font-size: 20px;
+    padding-top:15px;
+    padding-bottom:5px;
+}
+
+.topics_list {
+	color: #1A8D44;
+	font-family: Oxygen;
+	font-size: 16px;
+    font-weight: bold;
+    list-style: none;
+    padding-left : 0;
+    line-height: 2em;
+    padding-top: 10px;
+    letter-spacing: 0.5px;
+}
+
+.newsEventsDetails_backButton {
+	color: #1A8D44;
+	font-family: Oxygen;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.newsEventsDetails_title {
+	color: #000000;
+	font-family: "Patua One";
+	font-size: 29px;
+}
+
+.newsEventsDetails_title_mobile {
+	color: #000000;
+	font-family: "Patua One";
+	font-size: 24px;
+}
+
+
+.newsEventsDetails_title_mobile {
+	color: #000000;
+	font-family: "Patua One";
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.newsDetails_subTitle {
+	color: #9B9B9B;
+	font-family: Oxygen;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.newsDetails_content {
+	color: #000000;
+	font-family: Oxygen;
+    font-size: 16px;
+    padding-top: 30px;
+}
+
+.newsDetails_heading_text{
+    color: #000000;
+    font-family: "Patua One";
+    font-size: 20px;
+    padding-top:30px;
+}
+
+.newsDetails_more_news_cards{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.newsDetails_share {
+	color: #9B9B9B;
+	font-family: Oxygen;
+	font-size: 15px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.eventsDetails_borough {
+	color: #000000;
+	font-family: Oxygen;
+	font-size: 16px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.eventDetails_map_mobile{
+    padding-top: 20px;
+}
+
+.eventsDetails_subTitle {
+	color: #000000;
+	font-family: Oxygen;
+	font-size: 16px;
+}
+
+.eventDetails_secondary_title {
+	color: #9B9B9B;
+	font-family: Oxygen;
+	font-size: 16px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.eventDetails_secondary_title_mobile {
+	color: #9B9B9B;
+	font-family: Oxygen;
+	font-size: 16px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.eventDetails_secondary_text {
+	color: #000000;
+	font-family: Oxygen;
+	font-size: 16px;
+}
+
+.eventDetails_secondary_text_mobile{
+    color: #000000;
+	font-family: Oxygen;
+    font-size: 16px;
+    padding-top:10px;
+}
+
+.eventDetails_secondary_textGreen {
+	color: #1A8D44;
+	font-family: Oxygen;
+    font-size: 16px;
+    padding-top:30px;
+}
+
+.eventDetails_link {
+    color: #1A8D44;
+    text-decoration: none!important;
+}
+
+.eventDetails_link:hover{
+    color: #1A8D44;
+    text-decoration: none!important;
+}
+
+.eventDetails_link:visited{
+    color: #1A8D44;
+    text-decoration: none!important;
+}
+
+
+.eventDetails_secondary_textGreen_mobile {
+	color: #1A8D44;
+	font-family: Oxygen;
+    font-size: 16px;
+    padding-top:10px;
+}
+
+.eventDetails_secondary_textBlack {
+	color: #000000;
+	font-family: Oxygen;
+    font-size: 16px;
+    padding-top:30px;
+}
+
+.eventDetails_secondary_textBlack_mobile {
+	color: #000000;
+	font-family: Oxygen;
+    font-size: 16px;
+    padding-top:10px;
+}
+
+
+.eventDetails_sectionTwo{
+    padding-left: 0;
+}
+
+.eventDetails_sectionOne{
+    padding-left: 0;
+}
+
+.eventDetails_sectionOne_share{
+    text-align: right;
+    color: #9B9B9B;
+	font-family: Oxygen;
+	font-size: 15px;
+    font-weight: bold;
+    display: inline-flex;
+}
+
+.eventDetails_sectionOne_share_mobile{
+    text-align: right;
+    color: #9B9B9B;
+	font-family: Oxygen;
+	font-size: 15px;
+    font-weight: bold;
+    display: inline-flex;
+    padding-top:10px;
+}
+
+.eventDetails_sectionOne_share_button{
+    width:32px;
+    height:32px;
+}
+
+.eventDetails_map{
+    padding-left: 0px;
+    padding-top: 20px;
+}
+
+.eventDetails_sectionMoreEvents{
+    padding-top:30px;
+}
+
+.eventDetails_moreEvents_text {
+	color: #000000;
+	font-family: "Patua One";
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.eventDetails_moreEvents_text_mobile {
+	color: #000000;
+	font-family: "Patua One";
+    font-size: 20px;
+    padding-bottom: 15px;
+    padding-top: 30px;
+}
+
+
+.eventDetails_addCalendar_button{
+    padding-top: 30px;
+}
+
+.SocialMediaShareButton{
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.newsDetails_share{
+    color: #9B9B9B;
+	font-family: Oxygen;
+	font-size: 15px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+
+.newsTopics_mobile_container{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.newsTopics_tablet_container{
+    padding-left: 62px;
+    padding-right: 62px;
+}
+
+.newsevents_tablet_container{
+    padding-left: 62px;
+    padding-right: 62px;
+}
+
+.topicListsLi{
+    cursor:pointer;
+}

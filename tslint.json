@@ -1,0 +1,31 @@
+{
+    "extends": ["tslint:latest","tslint:recommended", "tslint-react", "tslint-config-prettier"],
+    "rules": {
+      "object-literal-sort-keys": false,
+      "interface-name" : [true, "never-prefix"],
+      "only-arrow-functions": false,
+      "jsdoc-format": false,
+      "file-name-casing": false,
+      "max-line-length": {
+              "options": [420]
+          },
+          "new-parens": true,
+          "no-arg": true,
+          "no-bitwise": true,
+          "no-conditional-assignment": true,
+          "no-consecutive-blank-lines": false,
+          "no-console": false
+      },
+      "jsRules": {
+          "max-line-length": {
+              "options": [420]
+          }
+      },
+    "linterOptions": {
+      "exclude": [
+        "config/**/*.js",
+        "node_modules/**/*.ts"
+      ]
+    }
+  }
+  

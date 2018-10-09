@@ -1,24 +1,24 @@
-import React from "react";
+// import React from 'react';
 
-import { storiesOf } from "@storybook/react";
-import { wInfo } from "./utils";
+// import { storiesOf } from '@storybook/react';
+// import { wInfo } from '../utils';
 
-storiesOf("Welcome", module).addWithJSX(
-  "to your new Storybook🎊",
-  wInfo(`
+// storiesOf('Welcome', module).addWithJSX(
+//   'to your new Storybook🎊',
+//   wInfo(`
 
 
-    ### Notes
+//     ### Notes
 
-    Hello world!:
+//     Hello world!:
 
-    ### Usage
-    ~~~js
-    <div>This is an example component</div>
-    ~~~
+//     ### Usage
+//     ~~~js
+//     <div>This is an example component</div>
+//     ~~~
 
-    ### To use this Storybook
+//     ### To use this Storybook
 
-    Explore the panels on the left.
-  `)(() => <div>This is an example component</div>)
-);
+//     Explore the panels on the left.
+//   `)(() => <div>This is an example component</div>)
+// );

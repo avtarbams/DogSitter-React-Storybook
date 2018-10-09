@@ -1,0 +1,246 @@
+.card_container {
+    box-sizing: border-box;
+    border: 1px solid #F0F0F0;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    font-family: 'Oxygen', sans-serif;
+    letter-spacing: 0;
+    text-rendering: unset;
+}
+
+.card-img-top{
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.card-body {
+    padding-left: 3.25%;
+    padding-right: 3%;
+}
+
+.card-title {
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 5px;
+    line-height: unset;
+}
+
+
+.card_threeColumn_middle_title_mobile{
+    font-size:16px;
+}
+
+.card-subtitle {
+    color: #9B9B9B;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+    line-height: unset;
+}
+
+
+.card_threeColumn_middle_subtitle_mobile{
+    font-size:15px;
+}
+
+.card-text {
+    color: #4A4A4A;
+    font-size: 16px;
+    margin: 0 0 20px;
+}
+
+
+.mobile_card_subtitle {
+    padding-top: 5px;
+    line-height: unset;
+}
+
+.mobile_card_title {
+    padding-top: 0;
+    margin-top: 5px;
+}
+
+.mobile_card_body {
+    padding-left: 5.25%;
+    padding-right: 4%;
+}
+
+.card-withoutBorder {
+    font-family: 'Oxygen', sans-serif;
+    letter-spacing: 0;
+    text-rendering: unset;
+}
+
+.card_withoutBorder_body {
+    border-bottom: 1px solid #F0F0F0;
+    padding: 0;
+}
+
+.card_withoutBorder_title {
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Oxygen', sans-serif;
+    padding-top: 0;
+    margin-bottom: 0;
+    line-height: unset;
+    letter-spacing: unset;
+}
+
+.card_withoutBorder_subtitle {
+    font-size: 14px;
+    font-weight: normal;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    line-height: unset;
+}
+
+.card_threeColumn_container {
+    border-bottom: 1px solid #F0F0F0;
+    padding: 0;
+    padding-top:15px;
+    font-family: 'Oxygen', sans-serif;
+    letter-spacing: 0;
+    text-rendering: unset;
+}
+
+.card_threeColumn_left{
+    padding-top: 15px;
+  }
+
+
+.card_threeColumn_left_mobile{
+  padding-top: 10px;
+}
+
+.card_threeColumn_left_mobile .card-title{
+    font-size:16px;
+}
+
+.card_threeColumn_left ul{
+    padding-top: 0;
+    padding-left: 0;
+    list-style: none;
+    line-height: unset;
+}
+
+.card_threeColumn_left li{
+    text-align: center;
+    line-height: 1.2em;
+}
+
+.card_threeColumn_left_mobile ul{
+    padding-top: 0;
+    padding-left: 0;
+    list-style: none;
+    line-height: unset;
+}
+
+.card_threeColumn_left_mobile li{
+    text-align: center;
+    line-height: 1.2em;
+}
+
+
+.card_threeColumn_left .card_threeColumn_left_month{
+    color: #1A8D44;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.card_threeColumn_left .card_threeColumn_left_day{
+	color: #85C559;
+	font-family: Oxygen;
+	font-size: 35px;
+}
+
+.card_threeColumn_left_mobile .card_threeColumn_left_month{
+    color: #1A8D44;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.card_threeColumn_left_mobile .card_threeColumn_left_day{
+	color: #85C559;
+	font-family: Oxygen;
+	font-size: 35px;
+}
+
+
+.card_threeColumn_container .card-text {
+    margin: 0;
+}
+
+.card_threeColumn_container .card-title {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+
+.card_threeColumn_container .card-subtitle {
+    padding-top: 0;
+    font-weight: normal;
+    margin-top: 0;
+    padding-bottom: 20px;
+}
+
+card_threeColumn_middle_subtitle {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.card_threeColumn_right {
+    color: #4A4A4A;
+    font-family: Oxygen;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.card_threeColumn_right_mobile {
+    color: #4A4A4A;
+    font-family: Oxygen;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.card_threeColumn_container .col-xs-3{
+    padding: 0;
+}
+
+.card_threeColumn_container .col-xs-2{
+    padding: 0;
+}
+
+.card_threeColumn_container .col-xs-6{
+    padding: 0;
+}
+
+.row{
+    margin:0;
+}
+
+.allNews_tablet{
+    padding-left: 62px;
+    padding-right: 62px;
+}
+
+.allNews_mobile{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.newsevents_tablet_container{
+    padding-left: 62px;
+    padding-right: 62px;
+}
+
+.newsevents_mobile_container{
+    padding-left: 10px;
+    padding-right: 10px;
+}

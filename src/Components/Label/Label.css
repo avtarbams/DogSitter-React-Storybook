@@ -1,0 +1,62 @@
+/* title of article****/
+.article_Title h4 {
+    font-weight: bold;
+}
+
+/*************************/
+/* types of label styles */
+/*************************/
+.Title_Para_Image img,
+.label_with_Image img {
+    width: 100%;
+}
+
+.Image_Div img {
+    width: 100%;
+    height: 100%;
+}
+
+.header_black {
+    color: #000000;
+    font-size: 29px;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+.header_white {
+    color: white;
+    font-size: 29px;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+.header_black_mini {
+    color: #000000;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.back_navigation {
+    color: #1A8D44;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.back_navigation:hover {
+    cursor: pointer;
+}
+
+.content_body {
+    color: #4A4A4A;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.content_link {
+    color: #1A8D44;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+}
