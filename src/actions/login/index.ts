@@ -1,5 +1,6 @@
 import {loginApi} from '../../Api/loginApi';
 import {actionsEnums} from '../../Common/actionsEnums';
+import {history} from '../../Helpers/History';
 import {LoginEntity} from '../../Model/login';
 import {LoginResponse} from '../../Model/loginResponse';
 
@@ -26,8 +27,7 @@ export const loginRequestCompletedAction = (loginResponse : LoginResponse) => {
           dispatcher(loginRequestCompletedAction(data));
           // This is not ideal to have it here, maybe move it to middleware?
           if(data.succeeded === true) {
-           console.log('verfied');
-           alert('verified');
+            history.push('/landing')
           }else{
             alert('wrong username / password');
           }

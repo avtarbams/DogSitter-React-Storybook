@@ -23,7 +23,6 @@ class NavBarContainer extends React.Component<ConnectedDispatch & ConnectedState
     constructor(props: ConnectedDispatch & ConnectedState) {
         super(props);
         this.state = {
-            disasterMode: false,
             isLoggedIn: false
         }
     }
@@ -46,7 +45,7 @@ class NavBarContainer extends React.Component<ConnectedDispatch & ConnectedState
         return (
             <div className="navbar_main">
                 <Row>
-                    <NavigationBar onNavItemClicked={this.onNavItemClicked} selectedId={this.props.navId === undefined ? NAVTYPES.Item1 : this.props.navId} onNavIconClicked={this.onNavIconClicked} isLoggedIn={true} />
+                    <NavigationBar onNavItemClicked={this.onNavItemClicked} selectedId={this.props.navId === undefined ? NAVTYPES.About : this.props.navId} onNavIconClicked={this.onNavIconClicked} isLoggedIn={true} />
                 </Row>
             </div>
         )

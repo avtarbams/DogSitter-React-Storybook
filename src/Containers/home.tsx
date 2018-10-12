@@ -9,7 +9,10 @@ import './home.css';
 
 class Home extends React.Component {
 
+  
+
   public render() {
+    console.log(this)
 
     return (
       <div>
