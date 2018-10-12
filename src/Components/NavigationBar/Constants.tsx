@@ -3,6 +3,7 @@ export enum NAVTYPES {
     Services = 2,
     News = 3,
     Contact = 4,
+    subscription = 5,
     Login = 8,
     SignUp = 9
 }
@@ -31,6 +32,11 @@ export const NAVBARDATA = [
         "title": "News",
         "uri": "/News",
         "navId": NAVTYPES.News
+    },
+    {
+        "title": "Buy Subscription",
+        "uri": "/subscription",
+        "navId": NAVTYPES.subscription
     }
 
 ];
